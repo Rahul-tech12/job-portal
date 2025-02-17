@@ -1,0 +1,26 @@
+{
+  "name": "job-portal",
+  "version": "1.0.0",
+  "description": "It is a website which provides job opportunities to the users and employers can hire from here.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahul-tech12/job-portal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rahul-tech12/job-portal/issues"
+  },
+  "homepage": "https://github.com/Rahul-tech12/job-portal#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9"
+  }
+}
