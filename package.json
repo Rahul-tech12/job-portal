@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "It is a website which provides job opportunities to the users and employers can hire from here.",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js"
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/Rahul-tech12/job-portal#readme",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongoose": "^8.10.1",

@@ -1,8 +1,16 @@
-const express=require('express')
+import express from 'express'
 const app=express()
-const dotenv=require('dotenv')
+import dotenv from 'dotenv'
+import connectDB from './config/db.js'
+import authRoute from './routes/authRoute.js'
 
 dotenv.config()
+connectDB()
+
+app.use(express.json())
+
+//routes
+app.use('/api/v1/auth',authRoute)
 
 app.get('/',(req,res)=>{
     res.send("Welcome to job portal")
