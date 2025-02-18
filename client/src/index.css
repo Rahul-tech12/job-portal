@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  background: #b7a2a2;
+}
+.navbar-content{
+  display: flex;
+  align-items: center;
+  gap: 302px;
+  font-size: 21px;
+}
+.navbar-content a{
+  text-decoration: none;
+}
+.navbar-content h2{
+  font-size: 24px;
+  margin-left: -295px;
+  width: 140px;
+  padding-top: 5px;
+}
+.navbar-content ul{
+  display: flex;
+  gap: 72px;
+  list-style: none;
+  margin-top: 16px;
+}
+.navbar-content .button{
+  display: flex;
+  gap: 43px;
+  margin-left: -25px;
+}
+.button a{
+  border: 1px solid black;
+    border-radius: 23px;
+    /* width: 119px; */
+    padding: 5px 10px;
+    background: #2358d0;
+    color: white;
+    font-size: 18px;
+}
+
+/*footer*/
+.footer{
+  background-color: #585c5c;
+  margin-top: -400px;
+}
+.footer-content{
+  display: flex;
+  margin-top: 546px;
+  gap: 278px;
+}
+.footer-content h4{
+  width: 630px;
+}
+.footer-content ul{
+  list-style: none;
+  line-height: 35px;
+}
+.footer-content .about{
+  width: 350px;
+  margin-left: -89px;
+}
+.footer-content .help{
+  width: 650px;
+}
+.download-app{
+  margin-left: -100px;
+  margin-right: 65px;
+}
+.download-app img{
+  width: 393px;
+}
+.footer p{
+  text-align: center;
+  font-weight: 700;
+}
+
+
+/*homepage*/
+.homepage h4{
+  margin-top: 20px;
+}
+.homepage h4,.category{
+  text-align: center;
+}
+.cards{
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  gap: 67px;
+}
+.card{
+  width: 500px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+.card img{
+  height: 320px;
+}
+.card button{
+  border-radius: 96px;
+  background: #c2cfdb;
+}
+
+
+/*register*/
+.register{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-top: 1px;
+    padding-top: 248px;
+    margin-left: 13px;
+    background: beige;
+    height: 867px;
+    width: 200vh;
+}
+.register form{
+  display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 18px;
+}
+.register button{
+  margin-top: 23px;
+  border-radius: 3px;
+  padding: 5px 2px;
+  background: #ffdaac;
+}
+.register button a{
+  text-decoration: none;
+  color: black;
+}
+
+/*login*/
+.login{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background: beige;
+    height: 112vh;
+    margin-top: -100px;
+    padding-top: 350px;
+    padding-left: 54px;
+}
+.login form{
+  display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.login button{
+  margin-top: 16px;
+    border-radius: 5px;
+    padding: 5px 17px;
+    background: #ffdaac;
+}
+.login button a{
+  text-decoration: none;
+    color: black;
+}
+
+
+/*recruiter*/
+.createjob{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background: beige;
+    height: 112vh;
+    margin-top: -100px;
+    padding-top: 350px;
+    padding-left: 54px;
+}
+.createjob form{
+  display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.createjob button{
+  margin-top: 16px;
+    border-radius: 5px;
+    padding: 5px 17px;
+    background: #ffdaac;
+}
+.createjob button a{
+  text-decoration: none;
+    color: black;
+}
